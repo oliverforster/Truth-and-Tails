@@ -7,10 +7,11 @@
 <!-- svelte-ignore a11y-missing-attribute -->
 <img src="{headerImage}">
 <Header></Header>
-<slot />
+<div class="container mx-auto">
+	<slot />
+</div>
 
 <style lang="postcss">
 	:global(html) {
-		@apply bg-teal;
 	}
 </style>

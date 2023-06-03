@@ -14,6 +14,12 @@ export default {
         'orange-darker': '#e85a03',
         'orange-light': '#fd930b',
         'orange-lighter': '#ff9f0e',
+        titleGreen: '#0e8402',
+        headerBlue: '#02576f',
+        molly: '#86358f',
+        vincent: '#e93631',
+        carlos: '#038848',
+        roxy: '#39449b'
       },
     },
   },

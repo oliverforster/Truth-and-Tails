@@ -1,5 +1,18 @@
-<script>
+<script lang="ts">
+	import Book from './Book.svelte';
+	import { bookData } from './bookData';
 
+	let books: Book[] = bookData;
+
+	interface Book {
+		Title: string;
+		Img: string;
+		Content: string;
+        BgColour: string;
+	}
 </script>
-
-<h3 class="text-orange-darker">Books</h3>
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+    {#each books as book}
+	<Book title={book.Title} img={book.Img} content={book.Content} bgColour={book.BgColour} />
+    {/each}
+</section>
