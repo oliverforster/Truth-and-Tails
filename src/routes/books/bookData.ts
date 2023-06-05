@@ -17,7 +17,7 @@ const bookData = [
         BgColour: 'bg-vincent'
 	},
 	{
-		Title: 'Carlos the Chamaleon',
+		Title: 'Carlos the Chameleon',
 		Img: CarlosCover,
 		Content: 'Carlos the Chameleon is a unique little creature. He can change his colour to fit in anywhere in the rainforest. But soon, he realises that he fits in best with all the animals when he\'s being himself. ',
         BgColour: 'bg-carlos'

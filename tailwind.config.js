@@ -17,7 +17,7 @@ export default {
         titleGreen: '#0e8402',
         headerBlue: '#02576f',
         molly: '#86358f',
-        vincent: '#e93631',
+        vincent: '#f67729',
         carlos: '#038848',
         roxy: '#39449b'
       },
