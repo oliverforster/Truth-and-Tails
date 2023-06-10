@@ -18,14 +18,15 @@
 			method: 'POST',
 			body: JSON.stringify(checkout)
 		});
-		console.log(await response.json());
+		var checkoutResponse = await response.json();
+		createPayment(checkoutResponse.id);
 	}
 	// @ts-ignore
-	function createPayment() {
+	function createPayment(checkoutId) {
 		// @ts-ignore
 		SumUpCard.mount({
 			id: 'sumup-card',
-			checkoutId: '4a66ce23-ed8d-431c-8f3b-faa081d1afef',
+			checkoutId: checkoutId,
 			// @ts-ignore
 			onResponse: function (type, body) {
 				console.log('Type', type);
@@ -61,5 +62,4 @@
 		</div>
 	{/each}
 </div>
-<button on:click={createPayment}>Pay</button>
 <div id="sumup-card" />
