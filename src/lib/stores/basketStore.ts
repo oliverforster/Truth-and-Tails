@@ -1,17 +1,11 @@
-import { writable } from "svelte/store";
+import { writable } from 'svelte/store';
 
-//if localstorage has basket, use it, otherwise use empty array
-let existingBasket: BasketItem[] = localStorage.getItem('basket') ? JSON.parse(localStorage.getItem('basket') || '{}') : [];
-
+let initValue: BasketItem[] = [];
 //set up basket store with value from localstorage
-export const basket = writable(existingBasket);
-
-basket.subscribe((value) => {
-    localStorage.setItem('basket', JSON.stringify(value));
-})
-
+export const basket = writable(initValue);
 
 interface BasketItem {
-    id: number;
-    quantity: number;
+	title: string;
+	price: number;
+	quantity: number;
 }

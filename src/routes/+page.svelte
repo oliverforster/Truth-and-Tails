@@ -1,6 +1,5 @@
 <script>
 	import BookLaunch from '$lib/images/BookLaunch.jpg';
-	import BooksOnDisplay from '$lib/images/BooksOnDisplay.jpg';
 </script>
 
 <div class="gap-x-2justify-items-center row-span-2 m-6 flex">

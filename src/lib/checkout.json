@@ -1,0 +1,13 @@
+{
+	"amount": 21.99,
+	"checkout_reference": "[{title: 'Molly the Mole', quantity: 1}]1686387927251",
+	"currency": "GBP",
+	"date": "2023-06-10T09:05:27.000+00:00",
+	"description": "[{title: 'Molly the Mole', quantity: 1}]",
+	"id": "4a66ce23-ed8d-431c-8f3b-faa081d1afec",
+	"merchant_code": "MDFFRHUS",
+	"merchant_name": "Go Vegan 791",
+	"pay_to_email": "dev_hywofhjs@sumup.com",
+	"purpose": "CHECKOUT",
+	"status": "PENDING"
+}
