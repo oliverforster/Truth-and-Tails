@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Book from './Book.svelte';
+	import Book from '$lib/Book.svelte';
 	import { bookData } from './bookData';
 
 	let books: Book[] = bookData;

@@ -12,7 +12,7 @@
 <div class="hidden items-center gap-x-2 bg-titleGreen pl-2 md:flex">
 	<a href="/"><h3 class={$page.url.pathname == '/' ? 'underline' : ''}>Home</h3></a>
 	<a href="/books"><h3 class={$page.url.pathname == '/books' ? 'underline' : ''}>Books</h3></a>
-	<a href="/basket"><h3 class={$page.url.pathname == '/basket' ? 'underline' : ''}>Basket</h3></a>
+	<!-- <a href="/basket"><h3 class={$page.url.pathname == '/basket' ? 'underline' : ''}>Basket</h3></a> -->
 </div>
 
 <div class="items-center gap-x-2 bg-titleGreen pl-2 md:hidden">
@@ -39,7 +39,7 @@
 					Books
 				</h3></a
 			>
-			<a href="/basket"
+			<!-- <a href="/basket"
 				><h3
 					class={$page.url.pathname == '/basket' ? 'underline' : ''}
 					on:click={showHide}
@@ -47,7 +47,7 @@
 				>
 					Basket
 				</h3></a
-			>
+			> -->
 		</div>
 	{/if}
 </div>

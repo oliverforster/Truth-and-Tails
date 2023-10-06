@@ -50,9 +50,9 @@
 				<h3>{item.title}</h3>
 			</div>
 			<div class="flex basis-1/3 flex-row items-center justify-center gap-2">
-				<button on:click={() => item.quantity--} class="rounded border-2 text-3xl">-</button>
+				<button on:click={() => item.quantity--} class="w-8 rounded border-2 text-3xl">-</button>
 				<input class="flex w-5" type="text" bind:value={item.quantity} min="0" />
-				<button on:click={() => item.quantity++} class="rounded border-2 text-3xl">+</button>
+				<button on:click={() => item.quantity++} class="w-8 rounded border-2 text-3xl">+</button>
 			</div>
 			<div class="flex basis-1/3 justify-end">
 				<h3>

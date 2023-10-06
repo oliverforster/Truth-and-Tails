@@ -9,3 +9,10 @@ interface BasketItem {
 	price: number;
 	quantity: number;
 }
+
+basket.subscribe((value) => {
+	let itemToRemove = value.find((item) => item.quantity === 0);
+	if (itemToRemove) {
+		value.splice(value.indexOf(itemToRemove), 1);
+	}
+});

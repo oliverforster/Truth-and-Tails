@@ -29,9 +29,9 @@
 	<div class="flex flex-grow flex-col gap-y-4">
 		<img src={img} alt={title} class="m-auto max-w-sm" />
 		<p class="flex-grow text-2xl text-white">{content}</p>
-		<button
+		<!-- <button
 			on:click={addToCart}
 			class="m-auto mt-2 flex rounded border-2 border-white p-2 text-white">Add to Cart</button
-		>
+		> -->
 	</div>
 </div>
